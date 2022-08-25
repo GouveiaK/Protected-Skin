@@ -1,0 +1,21 @@
+h2{
+    text-align: center;
+    padding: 10px;
+}
+.formulario{
+    width: 800px;
+    margin: 0 auto;
+}
+.dados-pessoais{
+    padding: 10px;
+}
+
+@media (max-width: 400px) {
+    .formulario{
+        width: 300px;
+        margin: 0 auto;
+    }
+    .dados-pessoais input{
+        margin: 5px;
+    }
+}

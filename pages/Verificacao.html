@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/index.css">
+    <link rel="stylesheet" href="verificacao.css">
+    <title>Verificação</title>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <a href="/index.html" class="logomarca">PROTECTED SKIN</a>
+        </div>
+        <nav class="nav-bar">
+            <ul class="lista">
+                <li class="items"><a href="">Câncer de Pele</a></li>
+                <li class="items"><a href="/pages/Verificacao.html">Verificação</a></li>
+                <li class="items"><a href="">Serviços</a></li>
+                <li class="items"><a href="">Quem Somos?</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h2>Cadastre-se</h2>
+    <form class="formulario">
+        <fieldset class="dados-pessoais">
+            <legend>Dados Pessoais</legend>
+            <div class="dados">
+                <label for="name">Nome</label>
+                <input type="text" name="name" placeholder="Digite seu nome">
+                <label for="sobrenome">Sobrenome</label>
+                <input type="text" name="sobrenome" placeholder="Digite seu sobrenome">
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email" placeholder="Digite seu email">
+            </div>
+            <div>
+                <fieldset>
+                    <legend>Sexo</legend>
+                    <input type="radio" name="sexo" id="masculino"><label for="masculino">Masculino</label>
+                    <input type="radio" name="sexo" id="feminino"><label for="feminino">Feminino</label>
+                    <input type="radio" name="sexo" id="outros"><label for="outros">Outros</label>
+                </fieldset>
+            </div>
+            <div>
+                <h3 style="font-size:14px">Preencha com os dados exatos</h4>
+                <fieldset>
+                    <label for="cancer">Você tem câncer de pelo?</label>
+                    <input type="radio" name="cancer" id="sim"><label for="sim">Sim</label>
+                    <input type="radio" name="cancer" id="nao"><label for="nao">Não</label>
+                </fieldset>
+            </div>
+        </fieldset>
+
+    </form>
+    
+</body>
+</html>
